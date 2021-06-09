@@ -1,0 +1,9 @@
+.cool-transition {
+  transition: all 0.4s cubic-bezier(1, 0.25, 0, 0.75) 0s !important;
+}
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
