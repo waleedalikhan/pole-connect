@@ -33,7 +33,7 @@ export default defineComponent({
     FilterSidebar,
   },
   setup() {
-    let showSidebar = ref(false)
+    let showSidebar = ref(true)
 
     let toggleSidebar = () => {
       showSidebar.value = true

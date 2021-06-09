@@ -14,7 +14,7 @@
           </div>
           <div class="flex items-center">
             <div class="w-3 h-3 rounded-full bg-pc-navy-blue mr-2"></div>
-            <p class="text-sm text-pc-navy-blue">In-person</p>
+            <p class="text-sm text-pc-navy-blue">Virtual</p>
           </div>
         </div>
       </div>
