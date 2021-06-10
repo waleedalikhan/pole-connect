@@ -7,7 +7,10 @@
       </button>
     </div>
     <div class="border-r border-black pr-4">
-      <button class="bg-transparent outline-none focus:outline-none flex items-center">
+      <button
+        class="bg-transparent outline-none focus:outline-none flex items-center"
+        @click="onSortClick"
+      >
         <img src="../../assets/icons/sort-icon.svg" alt />
         <span class="text-sm ml-2">Sort</span>
       </button>
@@ -29,11 +32,14 @@ import FilterSidebar from '@/components/HomeComponents/FilterSidebar/index.vue'
 
 export default defineComponent({
   name: 'BannerLinks',
+  props: {
+    onSortClick: Function,
+  },
   components: {
     FilterSidebar,
   },
   setup() {
-    let showSidebar = ref(true)
+    let showSidebar = ref(false)
 
     let toggleSidebar = () => {
       showSidebar.value = true
