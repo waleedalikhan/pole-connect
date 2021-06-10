@@ -16,6 +16,7 @@ module.exports = {
         'search-border': '#00437C',
         pc: {
           'dark-gray': '#979797',
+          'darker-gray': '#888888',
           'light-gray': '#d8d8d8',
           teal: '#36ccbe',
           'sky-blue': '#e9edf2',
