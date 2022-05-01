@@ -612,7 +612,7 @@
     resolve-from "^5.0.0"
     typescript "^4.0.3"
 
-"@vuedx/typescript-plugin-vue@0.6.3", "@vuedx/typescript-plugin-vue@~0.6":
+"@vuedx/typescript-plugin-vue@0.6.3":
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/@vuedx/typescript-plugin-vue/-/typescript-plugin-vue-0.6.3.tgz#cc2d99bdc0abbde9bb5909341c47715af00539a3"
   integrity sha512-zAhXM9LDVYvjAMnTiqf6yZcJXXh1rQrH3JhcmQNmlxk26sRysfa/VWNC8qkfq9vcOKRf1eQusH4g+Vov6qPGig==
@@ -629,6 +629,11 @@
     quick-lru "^5.1.1"
     vscode-uri "^2.1.2"
     vscode-web-custom-data "^0.3.2"
+
+"@vuedx/typescript-plugin-vue@~0.7":
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/@vuedx/typescript-plugin-vue/-/typescript-plugin-vue-0.7.5.tgz#60ee456d21f7378b6f7d69cf87b0d5076bf33d6f"
+  integrity sha512-HHx0cOP3wGy5ELxgAd/w4HUH2xbWbppr5LVD8DtU76l1eYUAPqKkFHASPJMmExHXY9ufIcv7nHiNhwq0FbSd+Q==
 
 "@vuedx/vue-virtual-textdocument@0.6.3":
   version "0.6.3"
