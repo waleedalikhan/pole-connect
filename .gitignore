@@ -10,8 +10,6 @@ dist-ssr
 .nyc_output
 
 # local env files
-.env
-.env.local
 .env.*.local
 
 # Log files
@@ -31,3 +29,4 @@ pnpm-debug.log*
 
 *.local
 LOCAL_NOTES.md
+config.bat
